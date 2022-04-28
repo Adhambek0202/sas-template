@@ -1,0 +1,47 @@
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 50px;
+
+}
+
+.site-header__list {
+    display: flex;
+    list-style: none;
+}
+.site-header__item {
+    padding-left: 42px;
+}
+.site-header__link {
+    color: #33323D;   
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.site-header__chiziq {
+    display: none;
+}
+.site-header__link:hover {
+    color: rgb(0, 255, 255);
+}
+
+@media only screen and (max-width:575px) {
+    .site-header__list  {
+        display: none;
+    }
+    .site-header__chiziq {
+        display: block;
+    }
+}
+
+.site-header__list--active {
+    display: block;
+    display: flex;
+}

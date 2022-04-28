@@ -1,0 +1,60 @@
+.site-footer {
+    background-color: #33323D;
+    margin-top: 150px;
+}
+.site-footer__div {
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-footer__first {
+    display: flex;
+    align-items: center;
+}
+.site-footer__list {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+.site-footer__item {
+    padding-left: 42px;
+}
+.site-footer__link {
+    padding: 0px;
+    margin: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.site-footer__img-mesenj-know {
+    margin-left: 15px;
+}
+@media only screen and (max-width:650px) {
+    .site-footer__div {
+        display: flex;
+        flex-direction: column;
+    }
+    .site-footer__first {
+        display: flex;
+        flex-direction: column;
+    }
+    .site-footer__list {
+        display: flex;
+        margin-right: 30px;
+        list-style: none;
+        text-align: center;
+        flex-direction: column;
+    }
+    .site-footer__item {
+        margin-top: 32px;;
+    }
+    .site-footer {
+        padding-top:40px;
+        padding-bottom:40px;
+    }
+    .site-footer__img-mesenj {
+        margin-top: 40px;
+    }
+}
